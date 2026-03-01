@@ -53,4 +53,9 @@ dependencies = [
     "faiss-cpu<1.8",                    # 1.8+ macOS 14+ 전용
     "langchain-pinecone>=0.2.13",
     "pinecone-notebooks>=0.1.1",
+    "langfuse>=3.14.5",
+    "langgraph>=1.0.8",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "langchain-core>=1.2.11",
+    "chromadb>=1.5.0",
 ]
