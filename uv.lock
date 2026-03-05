@@ -42,6 +42,7 @@ dependencies = [
     { name = "pypdf" },
     { name = "python-dotenv" },
     { name = "ragas" },
+    { name = "rank-bm25" },
     { name = "ranx" },
     { name = "ranx-k" },
     { name = "rapidfuzz" },
@@ -90,6 +91,7 @@ requires-dist = [
     { name = "pypdf", specifier = ">=6.7.0" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "ragas", specifier = ">=0.3.2" },
+    { name = "rank-bm25", specifier = ">=0.2.2" },
     { name = "ranx", specifier = ">=0.3.21" },
     { name = "ranx-k", specifier = ">=0.0.17" },
     { name = "rapidfuzz", specifier = ">=3.14.3" },
@@ -3697,6 +3699,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/5c/3f/44ffcfcd10b885c330f5e07f327edcf8965674103f81a8766a01672c3f27/ragas-0.3.2.tar.gz", hash = "sha256:a800a5326f0d5bfa086cf8832d4b1031e4b21ff063f83d7d9388ee36e1a93fe6", size = 257091, upload-time = "2025-08-19T12:04:18.655Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1f/1a/d08bb5fd256c375dae885e508c00636cba5692e772616e49c6d4cfdec52c/ragas-0.3.2-py3-none-any.whl", hash = "sha256:ccf4447fdc6daf69b5fafb26d8baa5095e4194a4dc87091b2a118f68322e7f1b", size = 277283, upload-time = "2025-08-19T12:04:17.329Z" },
+]
+
+[[package]]
+name = "rank-bm25"
+version = "0.2.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fc/0a/f9579384aa017d8b4c15613f86954b92a95a93d641cc849182467cf0bb3b/rank_bm25-0.2.2.tar.gz", hash = "sha256:096ccef76f8188563419aaf384a02f0ea459503fdf77901378d4fd9d87e5e51d", size = 8347, upload-time = "2022-02-16T12:10:52.196Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2a/21/f691fb2613100a62b3fa91e9988c991e9ca5b89ea31c0d3152a3210344f9/rank_bm25-0.2.2-py3-none-any.whl", hash = "sha256:7bd4a95571adadfc271746fa146a4bcfd89c0cf731e49c3d1ad863290adbe8ae", size = 8584, upload-time = "2022-02-16T12:10:50.626Z" },
 ]
 
 [[package]]
